@@ -57,6 +57,7 @@ lib/libaudiopolicy.so
 lib/libaudio.so
 lib/libcamera.so
 lib/liblvvefs.so
+lib/libmpl.so
 lib/libnvddk_2d.so
 lib/libnvddk_2d_v2.so
 lib/libnvddk_aes_user.so
@@ -99,7 +100,6 @@ lib/libnvtestresults.so
 lib/libnvwinsys.so
 lib/libnvwsi.so
 lib/libPanoraMax3.so
-lib/libreference-ril.so
 lib/libsamsungAcousticeq.so
 lib/lib_Samsung_Acoustic_Module_Llite.so
 lib/lib_Samsung_Resampler.so

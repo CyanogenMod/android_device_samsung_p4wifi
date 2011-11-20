@@ -1,3 +1,5 @@
+import init.p3.usb.rc
+
 on early-init
     mount debugfs debugfs /sys/kernel/debug
     write /sys/class/firmware/timeout 5
