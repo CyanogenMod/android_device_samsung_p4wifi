@@ -82,7 +82,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
         audio.a2dp.default \
-        libaudioutils
+        libaudioutils \
+        audio.primary.p3
         
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \

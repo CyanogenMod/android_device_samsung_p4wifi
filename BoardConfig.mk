@@ -47,6 +47,8 @@ BOARD_EGL_CFG := device/samsung/GT_P7510/egl.cfg
 #BOARD_USES_OVERLAY := true
 USE_OPENGL_RENDERER := true
 
+BOARD_USES_AUDIO_LEGACY := true
+
 #TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 #TARGET_RECOVERY_UI_LIB := librecovery_ui_ventana
 
