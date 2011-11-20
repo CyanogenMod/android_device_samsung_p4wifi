@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES := \
 
 # Modules
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
     $(LOCAL_PATH)/modules/dhd.ko:system/lib/modules/dhd.ko
 
 PRODUCT_COPY_FILES += \
