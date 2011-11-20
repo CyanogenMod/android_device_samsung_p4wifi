@@ -1,0 +1,42 @@
+/dev/knvmap             0660    system  system
+/dev/nvmap              0666    system  system
+/dev/tegra_avp          0660    media   media
+/dev/tegra_rpc          0660    media   media
+/dev/tegra_sema         0660    media   media
+/dev/tegra_mediaserver  0660    media   media
+/dev/s5k5ccgx           0660    media   camera
+/dev/s5k5bbgx           0660    media   camera
+/dev/tegra_camera       0660    media   camera
+/dev/spdif*             0660    system  audio
+/dev/mpu                0660    system  system
+/dev/mpuirq             0660    system  system
+/dev/nvhdcp0            0660    media   media
+/dev/nvhdcp1            0660    media   media
+/dev/video0             0666    media   camera
+/dev/video1             0666    media   camera
+/dev/tf_driver          0666    system  system
+/dev/smdctl            0660        system        radio
+/dev/smddown           0660        system        radio
+/dev/smdipc            0660        system        radio
+/dev/smdrfs            0660        system        radio
+/dev/storage           0660        system        radio
+/dev/block/mmcblk0     0640        root          radio
+
+# misc partition
+/dev/block/mmcblk0p6   0660        system        radio
+# modem partition
+/dev/block/mmcblk0p7   0660        system        radio
+
+# for GPS
+/dev/ttyHS0            0600        gps           gps
+
+# for MPL
+/dev/mpu	0660	system	system
+/dev/mpuirq	0660	system	system
+
+# for AKM8975
+/dev/akm8975	0660	system	system
+
+# for usb printer
+/dev/bus/usb/*         0660        system        usb
+/dev/usb/lp*           0660        system        usb
