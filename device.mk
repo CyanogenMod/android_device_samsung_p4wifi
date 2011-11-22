@@ -39,7 +39,8 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_KERNEL):kernel \
     $(LOCAL_PATH)/init.p3.rc:root/init.p3.rc \
 	$(LOCAL_PATH)/ueventd.p3.rc:root/ueventd.p3.rc \
-    $(LOCAL_PATH)/lpm.rc:root/lpm.rc
+    $(LOCAL_PATH)/lpm.rc:root/lpm.rc \
+	$(LOCAL_PATH)/init.p3.usb.rc:root/init.p3.usb.rc
 
 # Modules
 PRODUCT_COPY_FILES += \

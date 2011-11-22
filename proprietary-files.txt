@@ -50,7 +50,6 @@ lib/hw/hwcomposer.tegra.so
 lib/hw/lights.p3.so
 lib/hw/overlay.tegra.so
 lib/hw/sensors.p3.so
-lib/hw/sensors.tegra.so
 lib/liba2dp.so
 lib/libarccamera.so
 lib/libaudiopolicy.so
