@@ -51,11 +51,14 @@ lib/hw/lights.p3.so
 lib/hw/overlay.tegra.so
 lib/hw/sensors.p3.so
 lib/liba2dp.so
+lib/libakm.so
 lib/libarccamera.so
 lib/libaudiopolicy.so
 lib/libaudio.so
 lib/libcamera.so
 lib/liblvvefs.so
+lib/libmllite.so
+lib/libmlplatform.so
 lib/libmpl.so
 lib/libnvddk_2d.so
 lib/libnvddk_2d_v2.so
