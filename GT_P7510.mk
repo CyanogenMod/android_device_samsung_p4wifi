@@ -16,13 +16,7 @@
 PRODUCT_PACKAGES := \
     Camera \
     SpareParts \
-    Development \
-    GpsLocationTest
-
-
-
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-
+    Development
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernel

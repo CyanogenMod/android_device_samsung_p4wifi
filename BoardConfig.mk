@@ -19,6 +19,8 @@
 BOARD_USES_GENERIC_AUDIO := false
 USE_CAMERA_STUB := false
 
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
 # Use the non-open-source parts, if they're present
 -include vendor/samsung/GT_P7510/BoardConfigVendor.mk
 
