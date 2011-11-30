@@ -150,6 +150,21 @@ on boot
     chmod 666 /dev/nvhost-isp
     chmod 666 /dev/nvhost-mpe
     chmod 666 /dev/nvhost-vi
+
+# sensor
+    chown root system /dev/mpu
+    chown root system /dev/mpuirq
+    chown root system /dev/accelirq
+    chown root system /dev/timerirq
+    chown root system /sys/class/proximity/proximity/proximity_avg
+
+    chmod 0660 /dev/mpu
+    chmod 0660 /dev/mpuirq
+    chmod 0660 /dev/accelirq
+    chmod 0660 /dev/timerirq
+
+    chmod 664 /sys/class/sensors/accelerometer_sensor/calibration
+    chown system system /sys/class/sensors/accelerometer_sensor/calibration
     
 # Vibetonz
     chmod 0660 /dev/tspdrv
