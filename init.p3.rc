@@ -178,13 +178,8 @@ on boot
 # to enable wifi
 #    setprop wifi.interface eth0
 # Power management settings
-    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 216000
-    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq 1000000
     write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor interactive
-    write /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq 216000
-    write /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq 1000000
     write /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor interactive
-    write /sys/devices/system/cpu/cpufreq/interactive/go_maxspeed_load 80
 
 # HSIC control
     chown radio system /sys/devices/platform/tegra-ehci.1/ehci_power
