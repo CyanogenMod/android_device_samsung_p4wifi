@@ -94,6 +94,12 @@
         <item>7</item>
     </integer-array>
 
+   <!-- Boolean indicating whether the wifi chipset has dual frequency band support -->
+    <bool translatable="false" name="config_wifi_dual_band_support">true</bool>
+
+   <!-- Boolean indicating whether the wifi chipset has background scan support -->
+   <bool translatable="false" name="config_wifi_background_scan_support">true</bool>
+
     <string name="config_networkLocationProvider">com.google.android.location.NetworkLocationProvider</string>
 
    <string name="config_geocodeProvider">com.google.android.location.GeocodeProvider</string>
@@ -112,6 +118,7 @@
     <string-array translatable="false" name="networkAttributes">
         <item>"wifi,1,1,1,-1,true"</item>
         <item>"bluetooth,7,7,0,-1,true"</item>
+        <item>"wifi_p2p,13,1,0,-1,false"</item>
     </string-array>
 
     <!-- This string array should be overridden by the device to present a list of radio
