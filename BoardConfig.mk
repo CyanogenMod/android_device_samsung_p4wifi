@@ -51,8 +51,19 @@ USE_OPENGL_RENDERER := true
 
 BOARD_USES_AUDIO_LEGACY := true
 
-#TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 #TARGET_RECOVERY_UI_LIB := librecovery_ui_ventana
+
+# custom recovery ui
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/GT_P7510/recovery/recovery_ui.c
+BOARD_HAS_NO_SELECT_BUTTON := true
+BOARD_HAS_LARGE_FILESYSTEM := true
+
+# override recovery init.rc
+TARGET_RECOVERY_INITRC := device/samsung/GT_P7510/recovery/init.rc
+
+# Indicate that the board has an Internal SD Card
+BOARD_HAS_SDCARD_INTERNAL := true
 
 # device-specific extensions to the updater binary
 #TARGET_RECOVERY_UPDATER_LIBS += librecovery_updater_ventana
