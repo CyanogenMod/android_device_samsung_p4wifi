@@ -243,6 +243,9 @@ on property:vold.decrypt=check_integrity
     exec check_encrypted_filesystem
     setprop vold.post_fs_data_done 1
 
+# Always start adbd on userdebug and eng builds
+    setprop sys.usb.config adb
+
 service drm /system/bin/drmserver
     class main
     user drm
