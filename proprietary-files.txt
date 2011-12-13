@@ -53,6 +53,7 @@ lib/hw/sensors.p3.so
 lib/liba2dp.so
 lib/libakm.so
 lib/libarccamera.so
+lib/libardrv_dynamic.so
 lib/libaudiopolicy.so
 lib/libaudio.so
 lib/libcamera.so

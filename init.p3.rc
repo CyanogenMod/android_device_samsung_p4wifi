@@ -18,6 +18,10 @@ on early-init
     write /sys/block/mmcblk0/queue/iosched/slice_idle 0
     
 on init
+# set tegra_dc0/1 perms
+    chmod 666 /dev/tegra_dc0
+    chmod 666 /dev/tegra_dc1
+
 # Vibetonz
     export VIBE_PIPE_PATH /dev/pipes
     mkdir /dev/pipes 0771 shell shell        
