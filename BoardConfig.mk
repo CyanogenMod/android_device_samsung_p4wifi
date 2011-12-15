@@ -98,4 +98,6 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 
 #BOARD_LIB_DUMPSTATE := libdumpstate.ventana
 
-BOARD_USES_SECURE_SERVICES := true
+# Use nicer font rendering
+BOARD_USE_SKIA_LCDTEXT := true
+
