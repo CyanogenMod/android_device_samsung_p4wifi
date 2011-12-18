@@ -101,3 +101,5 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 # Use nicer font rendering
 BOARD_USE_SKIA_LCDTEXT := true
 
+# Charging Mode (LPM)
+BOARD_CHARGING_MODE_BOOTING_LPM := "/sys/class/power_supply/battery/charging_mode_booting"
