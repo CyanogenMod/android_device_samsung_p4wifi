@@ -146,5 +146,5 @@ endif
 
 $(call inherit-product, frameworks/base/build/tablet-dalvik-heap.mk)
 
-$(call inherit-product-if-exists, vendor/samsung/GT_P7510/GT_P7510-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/p4wifi/p4wifi-vendor.mk)
 

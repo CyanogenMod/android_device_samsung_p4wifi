@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/GT_P7510.mk
+    $(LOCAL_DIR)/p4wifi.mk

@@ -22,7 +22,7 @@ USE_CAMERA_STUB := false
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Use the non-open-source parts, if they're present
--include vendor/samsung/GT_P7510/BoardConfigVendor.mk
+-include vendor/samsung/p4wifi/BoardConfigVendor.mk
 
 TARGET_NO_BOOTLOADER := true
 TARGET_CPU_ABI := armeabi-v7a
@@ -41,9 +41,9 @@ BOARD_PAGE_SIZE := 2048
 TARGET_NO_RADIOIMAGE := true
 TARGET_BOARD_PLATFORM := tegra
 TARGET_BOOTLOADER_BOARD_NAME := GT-P7510
-#TARGET_BOARD_INFO_FILE := device/samsung/GT_P7510/board-info.txt
+#TARGET_BOARD_INFO_FILE := device/samsung/p4wifi/board-info.txt
 
-BOARD_EGL_CFG := device/samsung/GT_P7510/egl.cfg
+BOARD_EGL_CFG := device/samsung/p4wifi/egl.cfg
 
 #BOARD_USES_HGL := true
 #BOARD_USES_OVERLAY := true
@@ -55,25 +55,25 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 #TARGET_RECOVERY_UI_LIB := librecovery_ui_ventana
 
 # custom recovery ui
-BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/GT_P7510/recovery/recovery_ui.c
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/p4wifi/recovery/recovery_ui.c
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 
 # override recovery init.rc
-TARGET_RECOVERY_INITRC := device/samsung/GT_P7510/recovery/init.rc
+TARGET_RECOVERY_INITRC := device/samsung/p4wifi/recovery/init.rc
 
 # Indicate that the board has an Internal SD Card
 BOARD_HAS_SDCARD_INTERNAL := true
 
 # device-specific extensions to the updater binary
 #TARGET_RECOVERY_UPDATER_LIBS += librecovery_updater_ventana
-TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/GT_P7510
+TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/p4wifi
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 606076928
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 14472970240
 BOARD_FLASH_BLOCK_SIZE := 4096
 
-TARGET_PREBUILT_KERNEL := device/samsung/GT_P7510/kernel
+TARGET_PREBUILT_KERNEL := device/samsung/p4wifi/kernel
 
 #TARGET_PROVIDES_INIT_RC := true
 #TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
