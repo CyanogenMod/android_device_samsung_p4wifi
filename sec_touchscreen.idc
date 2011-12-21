@@ -1,1 +1,0 @@
-touch.deviceType = touchScreen
