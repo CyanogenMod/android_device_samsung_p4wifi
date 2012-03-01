@@ -54,4 +54,9 @@
         <item>"7,1"</item>
     </string-array>
 
+    <integer-array translatable="false" name="config_tether_upstream_types">
+        <item>1</item>
+        <item>7</item>
+    </integer-array>
+
 </resources>
