@@ -28,13 +28,7 @@ etc/firmware/nvmm_wavdec.axf
 etc/firmware/nvmm_wmadec.axf
 etc/firmware/nvmm_wmaprodec.axf
 etc/firmware/nvrm_avp.bin
-etc/wifi/bcm4330_mfg.bin
-etc/wifi/bcm4330_sta.bin
-etc/wifi/bcm4330_sta.bin_b0
-etc/wifi/nvram_mfg.txt
 etc/wifi/nvram_net.txt
-etc/wifi/nvram_net.txt_b0
-etc/wifi/nvram_net.txt_us
 etc/wifi/wl
 etc/wifi/wpa_supplicant.conf
 lib/egl/libEGL_tegra.so
