@@ -59,4 +59,7 @@
         <item>7</item>
     </integer-array>
 
+    <!-- Component name of the default wallpaper. This will be ImageWallpaper if not specified -->
+    <string name="default_wallpaper_component">com.android.noisefield/.NoiseFieldWallpaper</string>
+
 </resources>
