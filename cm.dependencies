@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_device_samsung_p4-common",
+    "target_path": "device/samsung/p4-common"
+  }
+]
