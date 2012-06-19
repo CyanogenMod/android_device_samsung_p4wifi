@@ -6,3 +6,4 @@
 /cache		ext4		/dev/block/mmcblk0p5
 /data		ext4		/dev/block/mmcblk0p8
 /preload	ext4		/dev/block/mmcblk0p10
+/sdcard         datamedia       /dev/null
