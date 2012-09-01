@@ -1,9 +1,9 @@
 # mount point	fstype		device			device2
-/efs		ext4		/dev/block/mmcblk0p1
-/recovery	emmc		/dev/block/mmcblk0p2
-/boot		emmc		/dev/block/mmcblk0p3
-/system		ext4		/dev/block/mmcblk0p4
-/cache		ext4		/dev/block/mmcblk0p5
-/data		ext4		/dev/block/mmcblk0p8
-/preload	ext4		/dev/block/mmcblk0p10
+/efs		ext4		/dev/block/platform/sdhci-tegra.3/by-num/p1
+/recovery	emmc		/dev/block/platform/sdhci-tegra.3/by-num/p2
+/boot		emmc		/dev/block/platform/sdhci-tegra.3/by-num/p3
+/system		ext4		/dev/block/platform/sdhci-tegra.3/by-num/p4
+/cache		ext4		/dev/block/platform/sdhci-tegra.3/by-num/p5
+/data		ext4		/dev/block/platform/sdhci-tegra.3/by-num/p8
+/preload	ext4		/dev/block/platform/sdhci-tegra.3/by-num/p10
 /sdcard         datamedia       /dev/null
