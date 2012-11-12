@@ -22,9 +22,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/modules/bcmdhd.ko:system/lib/modules/bcmdhd.ko \
+    $(LOCAL_PATH)/modules/dhd.ko:system/lib/modules/dhd.ko \
     $(LOCAL_PATH)/modules/cifs.ko:system/lib/modules/cifs.ko \
-    $(LOCAL_PATH)/modules/ntfs.ko:system/lib/modules/ntfs.ko
+    $(LOCAL_PATH)/modules/ntfs.ko:system/lib/modules/ntfs.ko \
+    $(LOCAL_PATH)/modules/md4.ko:system/lib/modules/md4.ko \
+    $(LOCAL_PATH)/modules/nls_utf8.ko:system/lib/modules/nls_utf8.ko
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
@@ -49,6 +51,13 @@ PRODUCT_COPY_FILES += \
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
+
+PRODUCT_COPY_FILES += \
+     $(LOCAL_PATH)/gps.xml:system/etc/gps.xml
+
+# GPS config
+PRODUCT_PROPERTY_OVERRIDES += \
+  my.gps=novzw
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := p4wifi
