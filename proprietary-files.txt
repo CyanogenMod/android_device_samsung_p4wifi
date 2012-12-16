@@ -97,11 +97,7 @@ lib/libnvtestresults.so
 lib/libnvtvmr.so
 lib/libnvwinsys.so
 lib/libnvwsi.so
-lib/libsamsungAcousticeq.so
-lib/lib_Samsung_Acoustic_Module_Llite.so
 lib/lib_Samsung_Resampler.so
-lib/libsamsungSoundbooster.so
-lib/lib_Samsung_Sound_Booster.so
 lib/libsec-ril-apalone.so
 lib/libsecril-client.so
 lib/libstagefrighthw.so
