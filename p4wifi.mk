@@ -49,6 +49,10 @@ PRODUCT_COPY_FILES += \
     device/samsung/p4-common/hdmi/dectable1.dat:system/etc/hdmi/dectable1.dat \
     device/samsung/p4-common/hdmi/dectable.dat:system/etc/hdmi/dectable.dat
 
+# Wifi mfg
+PRODUCT_COPY_FILES += \
+    device/samsung/p4-common/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin
+
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
