@@ -12,22 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
-else
-	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-endif
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/modules/dhd.ko:system/lib/modules/dhd.ko \
-    $(LOCAL_PATH)/modules/cifs.ko:system/lib/modules/cifs.ko \
-    $(LOCAL_PATH)/modules/ntfs.ko:system/lib/modules/ntfs.ko \
-    $(LOCAL_PATH)/modules/md4.ko:system/lib/modules/md4.ko \
-    $(LOCAL_PATH)/modules/nls_utf8.ko:system/lib/modules/nls_utf8.ko
-
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # The gps config appropriate for this device
